@@ -6,9 +6,9 @@
 	<div id="sg-patterns">
 		{% for partial in partials %}
 			{% if partial.patternSectionSubtype }}
-				{% include patternSectionSubtype %}
+				{% include "patternSectionSubtype.twig" %}
 			{% else %}
-				{% include patternSection %}
+				{% include "patternSection.twig" %}
 			{% endif %}
 		{% endfor %}
 	</div> <!--end #sg-patterns-->
