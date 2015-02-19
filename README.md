@@ -4,7 +4,7 @@ These Twig templates are meant to be used with the [static assets](https://githu
 
 ## Installation
 
-Pattern Lab PHP uses [Composer](https://getcomposer.org/) to manage project dependencies. To install the Mustache templates run:
+Pattern Lab PHP uses [Composer](https://getcomposer.org/) to manage project dependencies. To install the Twig templates run:
 
     composer require pattern-lab/styleguidekit-twig-default
 
