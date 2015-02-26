@@ -26,12 +26,5 @@
 	"minimum-stability": "dev",
 	"require": {
 		"pattern-lab/styleguidekit-assets-default": "dev-dev"
-	},
-	"extra": {
-		"patternlab": {
-			"config": [
-				{ "styleguideKit": "pattern-lab/styleguidekit-twig-default" }
-			]
-		}
 	}
 }
