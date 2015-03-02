@@ -23,8 +23,8 @@
 		"wiki":           "http://patternlab.io/docs/",
 		"source":         "https://github.com/pattern-lab/styleguidekit-twig-default/releases"
 	},
-	"minimum-stability": "dev",
 	"require": {
-		"pattern-lab/styleguidekit-assets-default": "dev-dev"
+		"pattern-lab/styleguidekit-assets-default": "~0.5",
+		"pattern-lab/core": "~0.5"
 	}
 }
