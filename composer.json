@@ -24,7 +24,6 @@
 		"source":         "https://github.com/pattern-lab/styleguidekit-twig-default/releases"
 	},
 	"require": {
-		"pattern-lab/styleguidekit-assets-default": "~0.5",
-		"pattern-lab/core": "~0.5"
+		"pattern-lab/styleguidekit-assets-default": "~0.5"
 	}
 }
