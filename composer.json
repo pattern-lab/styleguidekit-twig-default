@@ -25,7 +25,6 @@
 	},
 	"require": {
 		"pattern-lab/core": "0.*",
-		"pattern-lab/patternengine-twig": "0.*",
 		"pattern-lab/styleguidekit-assets-default": "0.*"
 	}
 }
