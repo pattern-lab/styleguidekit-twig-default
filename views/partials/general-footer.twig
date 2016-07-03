@@ -10,9 +10,9 @@
      * Licensed under the MIT license
      *
      */
-    
+
     var scriptLoader = {
-      
+
       run: function(js,cb,target) {
         var s  = document.getElementById(target+'-'+cb);
         for (var i = 0; i < js.length; i++) {
@@ -31,7 +31,7 @@
           s.parentNode.insertBefore(c,s);
         }
       }
-      
+
     }
   </script>
 
