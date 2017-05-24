@@ -1,8 +1,8 @@
 {
-  "name":             "pattern-lab/styleguidekit-twig-default",
+  "name":             "drupal-pattern-lab/styleguidekit-twig-default",
   "description":      "The default Twig-based StyleguideKit for Pattern Lab. Contains styles and mark-up for Pattern Lab's front-end.",
   "keywords":         ["twig", "pattern lab", "styleguide"],
-  "homepage":         "http://patternlab.io",
+  "homepage":         "http://drupal-pattern-lab.github.io",
   "license":          "MIT",
   "type":             "patternlab-styleguidekit",
   "authors": [
@@ -19,11 +19,10 @@
     }
   ],
   "support": {
-    "issues":         "https://github.com/pattern-lab/styleguidekit-twig-default/issues",
-    "wiki":           "http://patternlab.io/docs/",
-    "source":         "https://github.com/pattern-lab/styleguidekit-twig-default/releases"
+    "issues":         "https://github.com/drupal-pattern-lab/styleguidekit-twig-default/issues",
+    "source":         "https://github.com/drupal-pattern-lab/styleguidekit-twig-default/releases"
   },
   "require": {
-    "pattern-lab/styleguidekit-assets-default": "^3.0.0"
+    "drupal-pattern-lab/styleguidekit-assets-default": "^3.0.0"
   }
 }
