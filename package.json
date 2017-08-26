@@ -5,9 +5,9 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/drupal-pattern-lab/styleguidekit-twig-default.git"
+    "url": "git://github.com/pattern-lab/styleguidekit-twig-default.git"
   },
-  "bugs": "https://github.com/drupal-pattern-lab/styleguidekit-twig-default/issues",
+  "bugs": "https://github.com/pattern-lab/styleguidekit-twig-default/issues",
   "authors": [
     {
       "name": "Dave Olsen",
