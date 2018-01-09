@@ -1,33 +1,33 @@
-<div id="{{ partial.patternPartial }}" class="sg-pattern">
-  <div class="sg-pattern-head">
-    <h3 class="sg-pattern-title">
-      <a href="../../patterns/{{ partial.patternLink }}" class="patternLink" data-patternpartial="{{ partial.patternPartial }}" title="Link to Pattern">
+<div id="{{ partial.patternPartial }}" class="pl-c-pattern">
+  <div class="pl-c-pattern__header">
+    <h3 class="pl-c-pattern__title">
+      <a href="../../patterns/{{ partial.patternLink }}" class="pl-c-pattern__title-link patternLink" data-patternpartial="{{ partial.patternPartial }}" title="Link to Pattern">
         {{ partial.patternName }}
         
         {% if partial.patternState %}
-          <span class="sg-pattern-state {{ partial.patternState }}">
+          <span class="pl-c-pattern-state pl-c-pattern-state--{{ partial.patternState }}">
             {{ partial.patternState }}
           </span>
         {% endif %}
-      </a>
-    </h3>
+      </a><!--end pl-c-pattern__title-link-->
+    </h3><!--end pl-c-pattern__title-->
     
-    <div class="sg-pattern-breadcrumb">
+    <div class="sg-pattern-breadcrumb pl-c-pattern__breadcrumb">
       {{ partial.patternBreadcrumb }}
-    </div>
+    </div><!--end pl-c-pattern__breadcrumb-->
     
-    <a href="#" data-patternpartial="{{ partial.patternPartial }}" title="View Pattern Info" id="sg-pattern-extra-toggle-{{partial.patternPartial}}" class="sg-pattern-extra-toggle">
-      <span>&#9660;</span>
-    </a>
+    <button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-{{ partial.patternPartial }}" data-patternpartial="{{ partial.patternPartial }}" title="View Pattern Info">
+			<span class="pl-c-pattern__toggle-icon">&#9660;</span>
+		</button><!--end pl-c-pattern__extra-toggle-->
   </div>
   
-  <div class="sg-pattern-extra" id="sg-pattern-extra-{{ partial.patternPartial }}"></div>
+  <div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-{{ partial.patternPartial }}"></div><!--end pl-c-pattern__extra-->
     
-  <div class="sg-pattern-example">
+  <div class="pl-js-pattern-example">
     {{ partial.patternPartialCode | raw }}
-  </div>
+  </div><!--end pl-js-pattern-example-->
   
-  <script type="text/json" id="sg-pattern-data-{{partial.patternPartial}}" class="sg-pattern-data">
+  <script type="text/json" id="pl-pattern-data-{{partial.patternPartial}}" class="pl-js-pattern-data">
     {{ partial.patternData | raw }}
   </script>
-</div><!--end .sg-pattern-->
+</div><!--end pl-c-pattern-->

@@ -1,7 +1,11 @@
 <!-- View All Patterns in a Pattern Sub-Type -->
-<div class="sg-main" role="main">
-  <!-- Patterns -->
-  <div id="sg-patterns">
+
+<!-- View All Patterns in a Pattern Sub-Type -->
+<div class="pl-c-main">
+  
+	<!-- Index of Patterns -->
+	<div class="pl-c-pattern-index">
+
     {% for partial in partials %}
       {% if partial.patternSectionSubtype %}
         {% include "patternSectionSubtype.twig" %}
@@ -9,5 +13,7 @@
         {% include "patternSection.twig" %}
       {% endif %}
     {% endfor %}
-  </div> <!--end #sg-patterns-->
-</div><!--end .sg-main-->
+
+  </div><!--end pl-c-pattern-index-->
+
+</div><!--end pl-c-main-->
