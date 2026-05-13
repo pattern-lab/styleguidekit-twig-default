@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> Pattern Lab is no longer actively maintained. All repositories, along with the rest of the @pattern-lab ecosystem on GitHub and npm, have been deprecated and archived. The code, releases, and history remain available so the work stays discoverable and forks can continue independently under the MIT license. No new releases, security patches, or issue triage will be performed.
+> [Read the full message](https://github.com/pattern-lab), and thank you.
+
 # Twig Templates for the Default StyleguideKit
 
 These Twig templates are meant to be used with the [static assets](https://github.com/pattern-lab/styleguidekit-assets-default) for the default StyleguideKit. The Twig templates are for the "view all" view in Pattern Lab PHP.
